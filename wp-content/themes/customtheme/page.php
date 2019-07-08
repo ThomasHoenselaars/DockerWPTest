@@ -1,3 +1,4 @@
+<!-- GENERAL NEW PAGE TEMPLATE -->
 <?php get_header();?>
 
 <div class="container">

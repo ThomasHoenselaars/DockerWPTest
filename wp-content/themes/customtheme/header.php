@@ -9,8 +9,17 @@
 </head>
 <body <?php body_class();?>>
 
+<!-- HEADER -->
 <header class="header">
 
+    <nav class="navigation">
+        <?php wp_nav_menu (
+            array(
+                'theme_location' => 'top-menu',
+                'menu_class' => 'navlist'
+            )
+        );?>
+    </nav>
 
 </header>
 
